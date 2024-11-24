@@ -2,6 +2,7 @@
 import React from "react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import {Helmet} from "react-helmet";
+import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import react-router-dom
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -16,11 +17,12 @@ function App() {
       <div className="app-container">
       <Helmet>
                 <meta charSet="utf-8" />
-                <title>Course Website</title>
+                <title>Akaboydeve Game Store</title>
                 <link rel="canonical" href="http://mysite.com/example" />
-                <meta name="description" content="Course wensite kiit" />
+                <meta name="description" content="Akaboydeve Game Store" />
             </Helmet>
       <SpeedInsights />
+      <Analytics />
         <Navbar />
         <Hero />
         <div className="page-content">
