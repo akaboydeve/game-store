@@ -18,7 +18,7 @@ function App() {
       <Helmet>
                 <meta charSet="utf-8" />
                 <title>Akaboydeve Game Store</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="https://gamestore.hexgame.in/" />
                 <meta name="description" content="Akaboydeve Game Store" />
             </Helmet>
       <SpeedInsights />
