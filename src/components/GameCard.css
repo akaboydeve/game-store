@@ -1,0 +1,58 @@
+.game-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.game-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.game-card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #4ecca3;
+}
+
+.game-card p {
+    margin: 5px 0;
+    color: #505050;
+    /* Better readability with a softer gray */
+}
+
+.game-card .game-status {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #f5a623;
+    /* Highlight for status text */
+}
+
+.game-card .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #4ecca3;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.game-card .btn:hover {
+    background: #3cb88c;
+    /* Slightly darker green for hover */
+}
