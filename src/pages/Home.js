@@ -1,33 +1,9 @@
+// Home.js
 import React from "react";
-import GameCard from "../components/GameCard";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import games from "../data"; // Import data from data.js
+import GameCard from "../components/GameCard"; // Assuming you have a GameCard component
 import "./Home.css";
-
-const games = [
-  {
-    id: 1,
-    title: "Mination",
-    description: "An open-world simulator game. Explore, create, and survive!",
-    image: "assets/mination.jpg",
-    link: "https://example.com/mination",
-    status: "Available on Windows",
-  },
-  {
-    id: 2,
-    title: "MiniTankWars",
-    description: "A 2D multiplayer tank battle game. Join the fun!",
-    image: "assets/minitankwars.jpg",
-    link: "https://example.com/minitankwars",
-    status: "Coming Soon to Android & iOS",
-  },
-  {
-    id: 3,
-    title: "Dog Runner",
-    description: "Help the dog collect items and complete levels in this 2D platformer!",
-    image: "assets/dogracer.jpg",
-    link: "https://example.com/dogracer",
-    status: "Available on Web Browser",
-  },
-];
 
 function Home() {
   return (
@@ -35,7 +11,9 @@ function Home() {
       <h2>Our Games</h2>
       <div className="game-list">
         {games.map((game) => (
-          <GameCard key={game.id} game={game} />
+          <Link key={game.id} to={`/game/${game.id}`}> {/* Add Link with the dynamic route */}
+            <GameCard game={game} />
+          </Link>
         ))}
       </div>
     </section>

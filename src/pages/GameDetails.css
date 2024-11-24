@@ -1,0 +1,185 @@
+/* General Container for the Game Details Page */
+.game-details {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #2e2e2e;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+/* Game Title */
+.game-details h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #f1f1f1;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Game Description */
+.game-details p {
+    font-size: 18px;
+    color: #e0e0e0;
+    line-height: 1.8;
+    margin: 20px 0;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+/* Elaborated Description */
+.game-details .elaborated-description {
+    font-size: 18px;
+    color: #d1d1d1;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Status Text Styling */
+.game-details p strong {
+    font-weight: bold;
+    color: #4ecca3;
+    /* Bright color for status text */
+}
+
+/* Image Styling */
+.game-details img {
+    max-width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.game-details img:hover {
+    transform: scale(1.05);
+    /* Add zoom effect on hover */
+}
+
+/* Screenshots Container */
+.game-details .screenshots {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.game-details .screenshot {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.game-details .screenshot:hover {
+    transform: scale(1.05);
+}
+
+/* Button Styling */
+.game-details .btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 35px;
+    background-color: #4ecca3;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-details .btn:hover {
+    background-color: #36b287;
+    transform: translateY(-5px);
+    /* Elevates the button slightly on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.game-details .btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Download Link Styling */
+.game-details .download-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #36b287;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.game-details .download-link:hover {
+    background-color: #4ecca3;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.game-details .download-link:active {
+    transform: translateY(2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .game-details {
+        padding: 20px;
+    }
+
+    .game-details h1 {
+        font-size: 28px;
+    }
+
+    .game-details p {
+        font-size: 16px;
+    }
+
+    .game-details .btn,
+    .game-details .download-link {
+        padding: 12px 28px;
+        font-size: 16px;
+    }
+}
+
+/* Additional Aesthetic Updates */
+.game-details .error {
+    font-size: 20px;
+    color: #ff4d4d;
+    margin-top: 20px;
+}
+
+.game-details .back-button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.game-details .back-button:hover {
+    background-color: #444;
+    transform: translateY(-2px);
+}
+
+.game-details .back-button:active {
+    transform: translateY(2px);
+}

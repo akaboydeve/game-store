@@ -1,6 +1,24 @@
-footer {
+/* General Footer Styling */
+.footer {
+    background-color: #2e2e2e;
+    color: #f1f1f1;
     text-align: center;
-    padding: 20px;
-    background: #222;
-    color: #bbb;
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Flexbox container styling */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Page content flex grow */
+.page-content {
+    flex: 1;
+    /* Fills the remaining space above the footer */
 }

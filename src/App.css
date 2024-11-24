@@ -21,16 +21,17 @@ body {
 .main-content {
   flex: 1;
   /* Makes this section grow to fill the remaining space */
+  padding-bottom: 60px;
+  /* Optional space for the footer */
 }
 
-/* Footer stays at the bottom */
-footer {
-  background-color: #4ecca3;
-  color: #1a1a1d;
+/* Optional: Styling for Footer if needed */
+.footer {
+  background-color: #2e2e2e;
+  color: #f1f1f1;
   text-align: center;
-  padding: 15px 0px;
-  font-size: 0.9rem;
-  position: absolute;
-  bottom: 0;
+  padding: 20px 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
   width: 100%;
 }
