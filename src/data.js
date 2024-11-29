@@ -6,7 +6,7 @@ const games = [
       elaboratedDescription: "In BoxRun, you must navigate through a series of increasingly difficult levels, avoiding obstacles and collecting power-ups to enhance your speed and agility. The game features smooth 3D graphics and challenging gameplay that will test your reflexes and timing.",
       image: "/assets/boxrun.jpg",
       status: "Available on Android",
-      downloadLink: "https://www.mediafire.com/file/1dzyhbtvmxfcfci/BoxRun.apk/file", // Example download link
+      downloadLink: "https://www.mediafire.com/file/y6cry8dwyf8lm0f/BoxRun.apk/file", // Example download link
       screenshots: [
         "/assets/screenshots/boxrun1.jpg",
         "/assets/screenshots/boxrun2.jpg",
