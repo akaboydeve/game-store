@@ -6,7 +6,7 @@ const games = [
       elaboratedDescription: "In BoxRun, you must navigate through a series of increasingly difficult levels, avoiding obstacles and collecting power-ups to enhance your speed and agility. The game features smooth 3D graphics and challenging gameplay that will test your reflexes and timing.",
       image: "/assets/boxrun.jpg",
       status: "Available on Android",
-      downloadLink: "https://www.mediafire.com/file/n61ckqwzenns9on/BoxRun.apk/file", // Example download link
+      downloadLink: "https://apkpure.com/p/com.akaboydeve.BoxRun", // Example download link
       screenshots: [
         "/assets/screenshots/boxrun1.jpg",
         "/assets/screenshots/boxrun2.jpg",
@@ -20,7 +20,7 @@ const games = [
       elaboratedDescription: "ScaleYourScale is an exciting game where you control objects that grow or shrink in size. Your goal is to navigate through tricky obstacles and reach the finish line. The game offers multiple levels, each more challenging than the last, with a unique resizing mechanic that will keep you engaged.",
       image: "/assets/scaleyourscale.jpg",
       status: "Available on Android",
-      downloadLink: "https://www.mediafire.com/file/n61ckqwzenns9on/BoxRun.apk/file", // Example download link
+      downloadLink: "https://apkpure.com/p/com.akaboydeve.BoxRun", // Example download link
       screenshots: [
         "/assets/screenshots/scaleyourscale1.jpg",
         "/assets/screenshots/scaleyourscale2.jpg",
